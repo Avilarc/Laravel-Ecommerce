@@ -19,7 +19,8 @@ class ProductController extends Controller
             $query->where('active', $request->active);
         }
 
-        return $query->paginate(10);
+        $products = Product::with('category')->paginate(10);
+        return response()->json($products);
     }
 
     public function store(Request $request)
