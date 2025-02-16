@@ -17,16 +17,16 @@ class ProductImagesTableSeeder extends Seeder // Corregido: "ProductImagesTableS
         $products = Product::all();
 
         $images = [
-            '/images/iphone15pro.jpg',
-            '/images/galaxys23.jpg',
-            '/images/macbookairm2.jpg',
-            '/images/dellxps13.jpg',
-            '/images/ipadpro129.jpg',
-            '/images/applewatch8.jpg',
-            '/images/sonywh1000xm5.jpg',
-            '/images/canoneosr5.jpg',
-            '/images/ps5.jpg',
-            '/images/lgoledc2.jpg',
+            'storage/images/iphone15pro.jpg',
+            'storage/images/galaxys23.jpg',
+            'storage/images/macbookairm2.jpg',
+            'storage/images/dellxps13.jpg',
+            'storage/images/ipadpro129.jpg',
+            'storage/images/applewatch8.jpg',
+            'storage/images/sonywh1000xm5.jpg',
+            'storage/images/canoneosr5.jpg',
+            'storage/images/ps5.jpg',
+            'storage/images/lgoledc2.jpg',
         ];
 
         foreach ($products as $product) {
